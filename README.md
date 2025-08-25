@@ -17,18 +17,6 @@ To build this application for production:
 yarn run build
 ```
 
-## Testing
-
-This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
-
-```bash
-yarn run test
-```
-
-## Styling
-
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
-
 
 ## Linting & Formatting
 
