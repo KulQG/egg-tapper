@@ -1,5 +1,6 @@
 .page-wrapper {
   padding: var(--safe-padding);
+  min-height: 100svh;
   height: 100%;
   background-color: var(--bc-color-light-second);
 }

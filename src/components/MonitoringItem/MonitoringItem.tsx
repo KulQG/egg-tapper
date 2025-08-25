@@ -23,7 +23,7 @@ export const MonitoringItem: FC<MonitoringItemProps> = ({
       transition: { duration: 0.3, ease: 'easeInOut' },
     })
   }, [count, controls])
-
+  
   return (
     <motion.div
       animate={controls}
