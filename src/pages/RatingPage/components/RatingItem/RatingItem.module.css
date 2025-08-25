@@ -1,0 +1,14 @@
+.rating-item {
+  padding: 16px 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.rating-score {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

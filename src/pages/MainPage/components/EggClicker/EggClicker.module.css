@@ -1,0 +1,10 @@
+.egg-clicker {
+  margin: 14px 42px 0;
+}
+
+.egg-clicker > img {
+  width: 100%;
+  max-width: 460px;
+  display: block;
+  margin: 0 auto;
+}

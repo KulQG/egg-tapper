@@ -1,0 +1,42 @@
+.page-wrapper {
+  padding: var(--safe-padding);
+  height: 100%;
+  background-color: var(--bc-color-light-second);
+}
+
+.page-wrapper header {
+  width: fit-content;
+  margin-bottom: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info img {
+  margin: 0 30px;
+
+  display: block;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.rating-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}

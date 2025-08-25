@@ -1,0 +1,15 @@
+.footer-navigation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 52px;
+  gap: 8px;
+  margin-top: 62px;
+}
+
+.footer-navigation button {
+  height: 100%;
+}
+
+.footer-navigation a {
+  text-decoration: none;
+}

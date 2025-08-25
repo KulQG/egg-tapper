@@ -1,0 +1,8 @@
+.monitoring-item {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8px;
+  min-width: 56px;
+  width: fit-content;
+}

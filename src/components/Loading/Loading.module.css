@@ -1,0 +1,16 @@
+.loading-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--bc-color-light-second);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-wrapper img {
+  max-width: 260px;
+  opacity: 0.5;
+}

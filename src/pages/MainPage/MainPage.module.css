@@ -1,0 +1,13 @@
+.page-wrapper {
+  height: 100%;
+  padding: var(--safe-padding);
+  background:
+    radial-gradient(rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 70%),
+    linear-gradient(var(--bc-color-light) 0%, var(--bc-color-main) 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+.page-wrapper main {
+  margin: auto 0;
+}

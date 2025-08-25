@@ -1,0 +1,20 @@
+.hint {
+  width: 100%;
+  padding: 24px;
+  border-radius: 48px;
+  height: fit-content;
+  background-color: white;
+  position: relative;
+  
+}
+
+.hint::before {
+  content: '';
+  position: absolute;
+  left: 30%;
+  bottom: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: inherit;
+  transform: rotate(-45deg);
+}
