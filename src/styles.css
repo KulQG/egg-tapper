@@ -51,6 +51,8 @@ html {
 
 #app {
   height: 100%;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 * {

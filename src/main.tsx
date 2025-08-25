@@ -7,14 +7,14 @@ import {
   createRoute,
   createRouter,
 } from '@tanstack/react-router'
-// import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 
-import './styles.css'
 import reportWebVitals from './reportWebVitals.ts'
 
 import App from './pages/MainPage/MainPage.tsx'
 import RatingPage from './pages/RatingPage/RatingPage.tsx'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+
+import './styles.css'
 
 const queryClient = new QueryClient()
 
@@ -24,7 +24,6 @@ const rootRoute = createRootRoute({
       <QueryClientProvider client={queryClient} >
         <Outlet />
       </QueryClientProvider>
-      {/* <TanStackRouterDevtools /> */}
     </>
   ),
 })
