@@ -40,6 +40,15 @@ body {
     var(--sal, 16px);
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+html {
+  scrollbar-width: 0;
+}
+
 #app {
   height: 100%;
 }
